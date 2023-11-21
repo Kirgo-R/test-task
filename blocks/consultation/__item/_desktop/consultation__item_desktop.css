@@ -1,0 +1,9 @@
+.consultation__item_desktop {
+
+}
+
+@media (max-width: 768px) {
+    .consultation__item_desktop {
+        display: none;
+    }
+}

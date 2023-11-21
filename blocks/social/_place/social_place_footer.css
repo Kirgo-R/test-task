@@ -1,0 +1,10 @@
+.social_place_footer {
+    gap: 10px;
+}
+
+@media (max-width: 520px) {
+    .social_place_footer {
+        gap: 10px;
+        margin-bottom: 5px;
+    }
+}

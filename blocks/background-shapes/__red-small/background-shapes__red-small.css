@@ -1,0 +1,7 @@
+.background-shapes__red-small {
+    position: absolute;
+    top: 525px;
+    right: 525px;
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+    backdrop-filter: blur(2px);
+}

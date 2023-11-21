@@ -1,0 +1,11 @@
+.consultation__item_mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .consultation__item_mobile {
+        display: flex;
+        text-align: start;
+        line-height: 1.5;
+    }
+}

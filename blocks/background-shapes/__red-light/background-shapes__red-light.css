@@ -1,0 +1,18 @@
+.background-shapes__red-light {
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 60px;
+    right: 803px;
+}
+
+@media (max-width: 520px) {
+    .background-shapes__red-light {
+        top: 400px;
+        left: 30px;
+        width: 43px;
+        height: 43px;
+        filter: blur(6px);
+    }
+
+}

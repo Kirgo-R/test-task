@@ -1,0 +1,13 @@
+.footer__address {
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+@media (max-width: 520px) {
+    .footer__address {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer__caption {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 30px 0 0;
+}
+
+@media (max-width: 768px) {
+    .footer__caption {
+        align-items: start;
+    }
+}
+
+@media (max-width: 520px) {
+    .footer__caption {
+        margin: 55px 0 0;
+    }
+}

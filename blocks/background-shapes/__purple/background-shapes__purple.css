@@ -1,0 +1,14 @@
+.background-shapes__purple {
+    position: absolute;
+    top: 0;
+    right: 490px;
+    filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+@media (max-width: 520px) {
+    .background-shapes__purple {
+        top: 230px;
+        right: -60px;
+    }
+}

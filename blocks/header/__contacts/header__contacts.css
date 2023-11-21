@@ -1,0 +1,20 @@
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0 0;
+    gap: 45px;
+}
+
+@media (max-width: 1279px) {
+    .header__contacts {
+        flex-direction: column;
+        align-self: normal;
+        gap: 0;
+    }
+}
+
+@media (max-width: 880px) {
+    .header__contacts {
+        display: none;
+    }
+}

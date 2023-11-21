@@ -1,0 +1,20 @@
+.footer__contacts {
+    align-items: flex-end;
+    text-align: end;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer__contacts {
+        text-align: start;
+        align-items: start;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 520px) {
+    .footer__contacts {
+        gap: 8px;
+    }
+}
+

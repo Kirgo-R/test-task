@@ -1,0 +1,15 @@
+.footer__menu {
+    display: grid;
+    gap: 0 53px;
+    padding: 0 70px 0 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 520px) {
+    .footer__menu {
+        padding: 0;
+        gap: 0 40px;
+        grid-template-columns: 110px 130px;
+    }
+
+}

@@ -1,0 +1,23 @@
+.consultation {
+    display: grid;
+    justify-items: end;
+    grid-template-columns: repeat(2, 160px);
+    gap: 30px 5px;
+    margin: 17px 0 0;
+}
+
+@media (max-width: 768px) {
+    .consultation {
+        justify-items: start;
+    }
+}
+
+@media (max-width: 520px) {
+    .consultation {
+        grid-template-columns: 125px 138px;
+        margin: 0;
+        gap: 10px 0;
+
+    }
+}
+

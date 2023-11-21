@@ -1,0 +1,18 @@
+.consultation__title_gradient {
+    background: var(--text-gradient-consultation);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+@media (max-width: 520px) {
+    .consultation__title_gradient {
+        text-transform: none;
+        letter-spacing: normal;
+
+    }
+}

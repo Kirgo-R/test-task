@@ -1,0 +1,16 @@
+.consultation__title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: end;
+    margin: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+    .consultation__title {
+        text-align: start;
+    }
+}

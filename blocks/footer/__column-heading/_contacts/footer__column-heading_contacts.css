@@ -1,0 +1,9 @@
+.footer__column-heading_contacts {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer__column-heading_contacts {
+        margin: 0 0 10px;
+    }
+}

@@ -1,0 +1,12 @@
+.promo__title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 520px) {
+    .promo__title {
+        font-size: 36px;
+    }
+}

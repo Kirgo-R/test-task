@@ -1,0 +1,12 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 360px;
+}
+
+@media (max-width: 520px) {
+    .promo {
+        gap: 15px;
+    }
+}

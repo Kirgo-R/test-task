@@ -1,0 +1,20 @@
+.background-shapes__red {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    flex-shrink: 0;
+    border-radius: 311px;
+    opacity: 0.5;
+    background: #961A1A;
+    filter: blur(196px);
+    top: 250px;
+    left: -100px;
+}
+
+@media (max-width: 520px) {
+    .background-shapes__red {
+        top: 240px;
+        left: -55px;
+
+    }
+}

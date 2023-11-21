@@ -1,0 +1,17 @@
+.footer__column-heading {
+    margin: 0 0 20px;
+    color: var(--headings-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 520px) {
+    .footer__column-heading {
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+}

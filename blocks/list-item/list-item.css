@@ -1,0 +1,5 @@
+@media (max-width: 520px) {
+    .list-item:nth-child(5) {
+        display: none;
+    }
+}

@@ -1,0 +1,8 @@
+:root {
+    --main-bg-color: #0E1014;
+    --main-font-color: #E4E5EA;
+    --text-gradient: linear-gradient(90deg, #FCB045 24%, #FF3F78 100%);
+    --headings-color: #656566;
+    --button-color: #4077F3;
+    --text-gradient-consultation: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+}

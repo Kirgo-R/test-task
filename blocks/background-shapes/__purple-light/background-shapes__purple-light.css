@@ -1,0 +1,19 @@
+.background-shapes__purple-light {
+    width: 259px;
+    height: 259px;
+    border-radius: 259px;
+    opacity: 0.5;
+    background: #833AB4;
+    filter: blur(196px);
+    position: absolute;
+    top: -150px;
+    right: 580px;
+}
+
+@media (max-width: 520px) {
+    .background-shapes__purple-light {
+        right: -190px;
+        top: 100px;
+    }
+
+}
